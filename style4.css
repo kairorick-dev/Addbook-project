@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(227, 227, 227, 0.8);
+    padding: 30px;
+    font-family: sans-serif;
+}
+.header{
+    width: 95%;
+    margin: auto;
+    background-color: rgb(0, 0, 40);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo h2{
+    color: white;
+    font-size: 2rem;
+}
+.header .nav-bar ul{
+    display: flex;
+    gap: 10px;
+}
+.header .nav-bar ul li{
+    list-style: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.header .nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header .nav-bar ul li:hover{
+    background-color: rgb(43, 43, 255);
+    transform: translateY(-5px);
+}
+
+.hero-section{
+    width: 95%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-section .content h2{
+    font-size: 3.5rem;
+}
+.hero-section .content h2:nth-child(2){
+    color: blue;
+}
+.verticle-bar{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(0, 0, 40);
+    border-radius: 10px;
+    margin-right: 4rem;
+}
+.logo-name{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-name h2{
+    color: white;
+    font-size: 1rem;
+}
+.logo-name i{
+    background-color: rgb(80, 80, 246);
+    border-radius: 3px;
+    padding: 2px 5px;
+    color: white;
+   } 
+   .verticle-bar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+   }
+      .verticle-bar ul li {
+     width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+.verticle-nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.verticle-nav-bar ul li:hover{
+    transform: translateY(-5px);
+    background-color: rgb(43, 43, 255);
+}
+      

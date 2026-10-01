@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 60px;
+    border-bottom: 1px solid black;
+    box-shadow: 5px 5px 10px gray;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.logo > h2{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.logo > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px gray;
+    
+    
+}
+.menu-bar > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.menu-bar > ul > li{
+    list-style: none;
+}
+.menu-bar > ul > li > a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 8px;
+}
+.Home{
+    margin-top: 5px;
+    width: 100%;
+    height: 500px;
+    background-color: cadetblue;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.About{
+     margin-top: 5px;
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course{
+     margin-top: 5px;
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.fixed{
+     
+    width: fit-content;
+   padding: 30px;
+   background-color: burlywood;
+   border-radius: 5px;
+   position: fixed;
+   bottom: 100px;
+   right: 20px;
+}
